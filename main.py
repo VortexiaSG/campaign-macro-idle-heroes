@@ -19,7 +19,6 @@ win_screen_color = (255, 226, 64)
 total_attempts = 0
 isPaused = False
 
-
 def click(coordinates):
     mouse_pos = win32api.GetCursorPos()
     win32api.SetCursorPos(coordinates)
